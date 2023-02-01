@@ -38,7 +38,7 @@ double resultado(double num1, double num2, int operacao) {
         else if (operacao == 3) {
             resultado = num1 * num2;
         }
-        else if (operacao == 4) {
+        else {
             resultado = num1 / num2;
         }
         return resultado;
@@ -63,11 +63,8 @@ int main()
         else if (operacao == 3) {
             acao = "multiplicar";
         }
-        else if (operacao == 4) {
-            acao = "dividir";
-        }
         else {
-            return 0;
+            acao = "dividir";
         }
 
         while (true) {
