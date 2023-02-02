@@ -1,0 +1,6 @@
+﻿  Conversor de temperatura.cpp
+C:\Users\ti\Desktop\Proj\C++\Conversor de temperatura\Conversor de temperatura.cpp(9,40): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\ti\Desktop\Proj\C++\Conversor de temperatura\Conversor de temperatura.cpp(15,25): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\ti\Desktop\Proj\C++\Conversor de temperatura\Conversor de temperatura.cpp(18,25): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\ti\Desktop\Proj\C++\Conversor de temperatura\Conversor de temperatura.cpp(21,44): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+  Conversor de temperatura.vcxproj -> C:\Users\ti\Desktop\Proj\C++\Conversor de temperatura\x64\Debug\Conversor de temperatura.exe
