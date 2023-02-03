@@ -3,4 +3,7 @@ C:\Users\ti\Desktop\Proj\C++\Conversor de temperatura\Conversor de temperatura.c
 C:\Users\ti\Desktop\Proj\C++\Conversor de temperatura\Conversor de temperatura.cpp(15,25): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
 C:\Users\ti\Desktop\Proj\C++\Conversor de temperatura\Conversor de temperatura.cpp(18,25): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
 C:\Users\ti\Desktop\Proj\C++\Conversor de temperatura\Conversor de temperatura.cpp(21,44): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\ti\Desktop\Proj\C++\Conversor de temperatura\Conversor de temperatura.cpp(50,42): warning C4101: 'e': variável local não referenciada
+C:\Users\ti\Desktop\Proj\C++\Conversor de temperatura\Conversor de temperatura.cpp(91,42): warning C4101: 'e': variável local não referenciada
+C:\Users\ti\Desktop\Proj\C++\Conversor de temperatura\Conversor de temperatura.cpp(110,42): warning C4101: 'e': variável local não referenciada
   Conversor de temperatura.vcxproj -> C:\Users\ti\Desktop\Proj\C++\Conversor de temperatura\x64\Debug\Conversor de temperatura.exe

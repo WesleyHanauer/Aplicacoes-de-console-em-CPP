@@ -36,7 +36,23 @@ int main()
         std::cout << "2 Celsius\n";
         std::cout << "3 Kelvin\n";
         std::cout << "4 para sair\n\n";
-        std::cin >> primeiraSelecao;
+
+        while(true){
+            try {
+                std::cin >> primeiraSelecao;
+
+                if (std::cin.fail()) {
+                    throw std::exception();
+                }
+
+                break;
+            }
+            catch (const std::exception& e) {
+                std::cout << "\nOpcao invalida, tente novamente.\n\n";
+                std::cin.clear();
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            }
+        }
 
         if (primeiraSelecao == 1) {
             tipo = "fahrenheit";
@@ -56,13 +72,48 @@ int main()
         else {
             return 0;
         }
+        std::cout << "\n" << tipo << " Foi selecionado!\n";
 
         std::cout << "\nPara qual temperatura deseja converter?\n";
         std::cout << "1 para " << tipoArr[0] << "\n";
         std::cout << "2 para " << tipoArr[1] << "\n\n";
-        std::cin >> segundaSelecao;
+
+        while (true) {
+            try {
+                std::cin >> segundaSelecao;
+
+                if (std::cin.fail()) {
+                    throw std::exception();
+                }
+
+                break;
+            }
+            catch (const std::exception& e) {
+                std::cout << "\nOpcao invalida, tente novamente.\n\n";
+                std::cin.clear();
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            }
+        }
+
         std::cout << "\nInforme os graus em " << tipo << ": \n\n";
-        std::cin >> num;
+
+        while (true) {
+            try {
+                std::cin >> num;
+
+                if (std::cin.fail()) {
+                    throw std::exception();
+                }
+
+                break;
+            }
+            catch (const std::exception& e) {
+                std::cout << "\nOpcao invalida, tente novamente.\n\n";
+                std::cin.clear();
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            }
+        }
+
         if (segundaSelecao == 1) {
             std::cout << "\n" << converter(num, tipo, tipoArr[0]) << "\n";
         }
