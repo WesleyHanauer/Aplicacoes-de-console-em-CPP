@@ -27,20 +27,24 @@ int getOperacao() {
     return operacao;
 }
 
-double resultado(double num1, double num2, int operacao) {
+double calcular(double num1, double num2, int operacao) {
     double resultado = 0.0;
-        if (operacao == 1) {
+    switch (operacao) {
+        case 1:
             resultado = num1 + num2;
-        }
-        else if (operacao == 2) {
+            break;
+        case 2:
             resultado = num1 - num2;
-        }
-        else if (operacao == 3) {
+            break;
+        case 3:
             resultado = num1 * num2;
-        }
-        else {
+            break;
+        case 4:
             resultado = num1 / num2;
-        }
+            break;
+        default:
+            break;
+    }
         return resultado;
 }
 
@@ -103,6 +107,6 @@ int main()
             }
         }
 
-        std::cout << "\n" << "O resultado e igual a: " << resultado(num1, num2, operacao) << "\n";
+        std::cout << "\n" << "O resultado e igual a: " << calcular(num1, num2, operacao) << "\n";
     }
 }

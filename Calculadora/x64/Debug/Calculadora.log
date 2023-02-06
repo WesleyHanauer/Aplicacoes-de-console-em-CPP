@@ -1,5 +1,5 @@
 ﻿  Calculadora.cpp
 C:\Users\ti\Desktop\Proj\C++\Calculadora\Calculadora.cpp(21,38): warning C4101: 'e': variável local não referenciada
-C:\Users\ti\Desktop\Proj\C++\Calculadora\Calculadora.cpp(81,42): warning C4101: 'e': variável local não referenciada
-C:\Users\ti\Desktop\Proj\C++\Calculadora\Calculadora.cpp(99,42): warning C4101: 'e': variável local não referenciada
+C:\Users\ti\Desktop\Proj\C++\Calculadora\Calculadora.cpp(85,42): warning C4101: 'e': variável local não referenciada
+C:\Users\ti\Desktop\Proj\C++\Calculadora\Calculadora.cpp(103,42): warning C4101: 'e': variável local não referenciada
   Calculadora.vcxproj -> C:\Users\ti\Desktop\Proj\C++\Calculadora\x64\Debug\Calculadora.exe
